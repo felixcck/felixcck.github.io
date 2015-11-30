@@ -1,0 +1,83 @@
+body {
+	/*background-color: #E7EBFF;*/
+	/*BG COLOR USED AS INSTRUCTED IN LESSON*/
+	background-image: url("../images/finishedlattebw.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #ccccdd;
+	font-family: "Open Sans Condensed", sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+a {
+	color: #111111;
+	text-decoration: none;
+	font-weight: 600;
+}
+#nav ul {
+	list-style-type: none;
+	margin-top: 35px;
+	padding: 0px;
+}
+#nav li {
+	display: inline;
+	padding-left: 75px;
+	padding-right: 75px;
+}
+.logo {
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+#logomoonrise {
+	margin-bottom: 5px;
+	margin-top: 70px;
+}
+#logocoffee {
+	margin: 5px;
+}
+#slogan {
+	font-style: italic;
+}
+#mission {
+	margin: auto;
+	padding: 20px;
+	text-align: justify;
+	width: 70%;
+}
+.contact {
+	display: inline-block;
+	margin-top: 20px;
+}
+#address {
+	/*float: left;*/ /*FORCES BELOW ELEMENTS TO PUSH UP. NO GOOD*/
+	margin-right: 25px;
+	text-align: left;
+}
+#hours {
+	/*float: right;*/ /*FORCES BELOW ELEMENTS TO PUSH UP. NO GOOD*/
+	margin-left: 25px;
+	text-align: left;
+}
+#hours ul {
+	margin: 0px;
+	padding: 0px;
+}
+#hours li {
+	list-style-type: none;
+}
+.email {
+	margin-bottom: 5px;
+	margin-top: 40px;
+	padding: 0px;
+}
+#social {
+	list-style-type: none;
+	margin-top: 20px;
+	padding: 0px;
+}
+#social li {
+	display: inline;
+	padding-left: 50px;
+	padding-right: 50px;
+}
