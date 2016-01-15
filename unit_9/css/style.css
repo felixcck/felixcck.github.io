@@ -17,8 +17,8 @@ body {
 }
 h1 {
 	font-family: 'Josefin Sans', sans-serif;
-	font-weight: 300;
 	font-size: 3em;
+	font-weight: 300;
 	letter-spacing: .4em;
 	padding-left: .75%;
 	text-align: center;
@@ -29,8 +29,21 @@ h2 {
 	text-transform: uppercase;
 }
 a {
-	text-decoration: none;
 	color: #009688;
+	text-decoration: none;
+}
+footer {
+	font-size: .9em;
+	line-height: 1em;
+	padding: 1%; /*padding IN EM: .9em;*/
+}
+address {
+	font-style: normal;
+	padding: .9% 0 1.05%; /*padding IN EM: .75em 0 1em;*/
+}
+footer img {
+	padding: 1.5%; /*padding IN EM: 1.25em;*/
+	width: 36px;
 }
 /*#toggle{
     display: none;
@@ -60,6 +73,10 @@ label{
 .headerbreak {
 	display: inline;
 }
+#storybold a, #cafebold a, #pastriesbold a, #blogbold a {
+	color: #009688;
+	font-weight: 900;
+}
 #indexmain {
 	background-image: url(../images/49parallel.jpg);
 	background-repeat: no-repeat;
@@ -67,28 +84,11 @@ label{
 	padding: 16% 0; /*padding IN EM: 14.25em;*/
 	text-align: center;
 }
-#storybold a, #cafebold a, #pastriesbold a, #blogbold a {
-	color: #009688;
-	font-weight: 900;
-}
 #blogmain {
 	background-image: url(../images/latte.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 16% 0;
-}
-footer {
-	font-size: .9em;
-	line-height: 1em;
-	padding: 1%; /*padding IN EM: .9em;*/
-}
-address {
-	font-style: normal;
-	padding: .9% 0 1.05%; /*padding IN EM: .75em 0 1em;*/
-}
-footer img {
-	padding: 1.5%; /*padding IN EM: 1.25em;*/
-	width: 36px;
 }
 .contactbreak {
 	display: inline;
@@ -123,6 +123,7 @@ footer img {
 }
 #right p {
 	font-size: .9em;
+	padding-top: 4%;
 }
 .clearfix:after {
 	visibility: hidden;
@@ -213,10 +214,10 @@ footer img {
 		text-align: center;
 	}
     .menu3 {
-	    position: absolute;
-	    padding: 0;
-	    top: 0;
 	    left: 42%;
+	    padding: 0;
+	    position: absolute;
+	    top: 0;
 	    /*width: 3em; WRITTEN BY SARAH*/
         /*left, right, bottom - WRITTEN BY SARAH*/
     }
