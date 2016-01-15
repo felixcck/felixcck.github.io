@@ -32,12 +32,12 @@ a {
 	text-decoration: none;
 	color: #009688;
 }
-#toggle{
+/*#toggle{
     display: none;
 }
 label{
     display: none;
-}
+} WRITTEN BY SARAH*/
 #headernav {
 	padding: 1.8% 0 1.1%; /*padding IN EM: 1.65em 0 .9em;*/
 }
@@ -67,8 +67,7 @@ label{
 	padding: 16% 0; /*padding IN EM: 14.25em;*/
 	text-align: center;
 }
-#menustory a, #menucafe a, #menupastries a, #menublog a {
-	/*border: 1px solid gray;*/
+#storybold a, #cafebold a, #pastriesbold a, #blogbold a {
 	color: #009688;
 	font-weight: 900;
 }
@@ -108,10 +107,14 @@ footer img {
 .imgbottom {
 	padding: 4% 0 0;
 }
+.imghidden {
+	display: none;
+	width: 78%;
+}
 #right {
     float: right;
-    line-height: 1.5em;
-    padding: 2.8% 5% 0 2%; /*padding IN PX: 20px;*/
+    line-height: 1.4em;
+    padding: 2.5% 5% 0 2%; /*padding IN PX: 20px;*/
     text-align: left;
     width: 62%;
 }
@@ -129,33 +132,15 @@ footer img {
 	clear: both;
 	height: 0;
 }
+/*@media screen and (max-width: 1100px) {
+	#left img {
+		min-width: 275px;
+	}
+}*/
 @media screen and (max-width: 1000px) {
 	#headernav {
 		padding: 18px 0 10px;
 	}
-	#headernav ul {
-        display: none;
-        position: relative;
-        /*background: yellow; WRITTEN BY SARAH*/
-    }
-    label {
-        display:block;
-    }
-    #toggle:checked + ul {
-        display:block;
-    }
-    #headernav li {
-	    display: block;
-    }
-	#menu3 {
-	    position: absolute;
-	    top: 0;
-	    /*width: 3em; WRITTEN BY SARAH*/
-        /*left, right, bottom - WRITTEN BY SARAH*/
-    }
-    #headernav li:first-of-type{
-        padding-top:55px;
-    }
 	#indexmain {
 		text-align: center;
 	}
@@ -178,10 +163,19 @@ footer img {
 		float: none;
 		width: auto;
 	}
+	.imgbottom {
+		display: none;
+	}
+	.imghidden {
+		display: block;
+		margin: 0 auto;
+		padding: 5% 0;
+		width: 78%;
+	}
 	#right {
 		float: none;
 		line-height: 1.5em;
-		padding: 5% 13%;
+		padding: 5% 13% 0 13%;
 		width: auto;
 	}
 	#right h2 {
@@ -190,9 +184,6 @@ footer img {
 	}
 	#right p {
 		font-size: .9em;
-	}
-	.imgbottom {
-		display: none;
 	}
 }
 @media screen and (max-width: 700px) {
@@ -205,13 +196,35 @@ footer img {
 	}
 }
 @media screen and (max-width: 500px) {
-	#headernav li {
+	#headernav {
+		padding: 10px 0;
+	}
+	#headernav ul {
+        position: relative;
+        /*display: none; WRITTEN BY SARAH*/
+        /*background: yellow; WRITTEN BY SARAH*/
+    }
+    /*label {
+        display:block;
+    }
+    #toggle:checked + ul {
+        display:block;
+    } WRITTEN BY SARAH*/
+    #headernav li {
 		display: block;
+		margin: 1%;
+		padding: 1%;
 		text-align: center;
 	}
-}
-@media screen and (max-width: 450px) {
-	#headernav {
-		padding: 1.8% 0 1%;
-	}
+    .menu3 {
+	    position: absolute;
+	    padding: 0;
+	    top: 0;
+	    left: 42%;
+	    /*width: 3em; WRITTEN BY SARAH*/
+        /*left, right, bottom - WRITTEN BY SARAH*/
+    }
+    #headernav li:first-of-type {
+        padding-top: 57px;
+    }
 }
