@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,300);
 @import url(https://fonts.googleapis.com/css?family=Oxygen:400,300);
 
@@ -31,6 +31,9 @@ h2 {
 a {
 	color: #009688;
 	text-decoration: none;
+}
+a:hover {
+	color: rgba(0,150,136,.5);
 }
 footer {
 	font-size: .9em;
@@ -75,12 +78,13 @@ label{
 }
 #storybold a, #cafebold a, #pastriesbold a, #blogbold a {
 	color: #009688;
-	font-weight: 900;
+	font-weight: 400;
 }
 #indexmain {
-	background-image: url(../images/49parallel.jpg);
+	background-image: url(../images/49parallel_1.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
+	/*background-size: cover;*/
+	background-position: center;
 	padding: 16% 0; /*padding IN EM: 14.25em;*/
 	text-align: center;
 }
@@ -104,19 +108,18 @@ label{
 #left img {
 	width: 78%;
 }
-.imgbottom {
-	padding: 4% 0 0;
-}
-.imghidden {
+/*.imghidden {
 	display: none;
 	width: 78%;
-}
+}*/
 #right {
-    float: right;
-    line-height: 1.4em;
-    padding: 1.2% 5% 0 2%; /*padding IN PX: 20px;*/
-    text-align: left;
-    width: 62%;
+    /*float: right;*/
+    line-height: 1.25em;
+    /*padding: 1.2% 5% 0 2%;*/ /*padding IN PX: 20px;*/
+    text-align: justify;
+    /*width: 62%;*/
+    max-width: 800px;
+    margin: 2.5% auto 1.5%;
 }
 #right h2 {
 	font-size: 1.2em;
@@ -124,6 +127,25 @@ label{
 #right p {
 	font-size: .9em;
 	padding-top: 4%;
+}
+.imgtop {
+	float: left;
+	margin: 0 5% 0 0;
+	width: 50%;
+}
+.imgbottom {
+	margin: auto;
+}
+.imgbottom img {
+	/*display: inline;*/
+	margin: 2.5% 0 1.5%;
+	width: 32%;
+}
+#imgbottom1 {
+	padding-right: .75%;
+}
+#imgbottom3 {
+	padding-left: .75%;
 }
 .clearfix:after {
 	visibility: hidden;
