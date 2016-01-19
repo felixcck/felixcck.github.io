@@ -83,8 +83,9 @@ label{
 #indexmain {
 	background-image: url(../images/49parallel_1.jpg);
 	background-repeat: no-repeat;
-	/*background-size: cover;*/
-	background-position: center;
+	background-size: cover;
+	/*background-position: center;*/
+	margin: 0 auto;
 	padding: 16% 0; /*padding IN EM: 14.25em;*/
 	text-align: center;
 }
