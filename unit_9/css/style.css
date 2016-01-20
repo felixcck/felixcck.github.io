@@ -44,11 +44,12 @@ address {
 	padding: .9% 0 1.05%; /*padding IN EM: .75em 0 1em;*/
 }
 footer img {
-	padding: 1.5%; /*padding IN EM: 1.25em;*/
+	padding: 1.5% .75%; /*padding IN EM: 1.25em;*/
+	margin: 0 .75%;
 	width: 36px;
 }
 section {
-	margin-top: 10%;
+	margin-top: 5%;
 }
 hr {
 	margin: auto;
@@ -104,35 +105,19 @@ label{
 .contactbreak {
 	display: inline;
 }
-#two_column {
-    padding: 1.25%;
-}
-#left {
-    float: left;
-    padding: 1.2% 0 0; /*padding IN PX: 15px 0 0;*/
-    width: 30%;
-}
-#left img {
-	width: 78%;
-}
-/*.imghidden {
-	display: none;
-	width: 78%;
-}*/
-#right {
+#copy {
     line-height: 1.25em;
     text-align: justify;
     max-width: 1000px;
-    margin: 2.5% auto 1.5%;
+    margin: 2.5% auto;
     /*float: right;*/
     /*padding: 1.2% 5% 0 2%;*/ /*padding IN PX: 20px;*/
     /*width: 62%;*/
 }
-#right h2 {
+#copy h2 {
 	font-size: 1.5em;
 }
-#right p {
-	/*font-size: .9em;*/
+#copy p {
 	padding-top: 4%;
 }
 .imgtop {
@@ -141,7 +126,7 @@ label{
 	width: 50%;
 }
 .imgbottom img {
-	margin: 2.5% 0 1.5%;
+	margin: 2.5% 0 0;
 	width: 32%;
 }
 #imgbottom1, #imgbottom2 {
@@ -161,12 +146,6 @@ label{
 	height: 0;
 }
 @media screen and (max-width: 1000px) {
-	#headernav {
-		padding: 18px 0 10px;
-	}
-	#indexmain {
-		text-align: center;
-	}
 	h1 {
 		font-size: 2.5em;
 		letter-spacing: .5em;
@@ -178,36 +157,61 @@ label{
 		padding: 2%;
 	}
 	footer img {
-		padding: 3%;
+		margin: 0 1%;
+	}
+	hr {
+		width: 80%;
+	}
+	#headernav {
+		padding: 18px 0 10px;
+	}
+	.imgtop {
+		margin: 0 5% 3% 0;
+		width: 400px;
+	}
+	#imgbottom1, #imgbottom2 {
+		margin: 3.5% auto;
+	}	
+	.imgbottom img {
+		display: block;
+		margin: 3.5% auto;
+		width: 75%;
+	}
+	#copy {
+		width: 80%;
+	}
+	.imgblog {
+		float: left;
+		margin: 0 5% .5% 0;
+		width: 264px;
 	}
 }
 @media screen and (max-width: 800px) {
-	#left {
-		float: none;
-		margin: 0 auto;
-		width: 95%;
-	}
-	.imgbottom {
-		display: none;
-	}
-	.imghidden {
-		display: block;
-		margin: 0 auto;
-		padding: 6% 0 4% 0;
-		width: 74%;
-	}
-	#right {
-		float: none;
+	#copy {
 		line-height: 1.5em;
-		padding: 5% 13% 0 13%;
-		width: auto;
+		margin: 3.5% auto;
 	}
-	#right h2 {
+	#copy h2 {
 		font-size: 1.05em;
 		text-align: center;
 	}
-	#right p {
+	#copy p {
 		font-size: .9em;
+	}
+	.imgtop {
+		float: none;
+		margin: 0 0 3% 0;
+		width: 100%;
+	}
+	.imgbottom img {
+		display: block;
+		margin: 3.5% auto;
+		width: 100%;
+	}
+	.imgblog {
+		float: none;
+		margin: 2% auto;
+		width: 100%;
 	}
 }
 @media screen and (max-width: 700px) {
@@ -228,18 +232,15 @@ label{
         /*display: none; WRITTEN BY SARAH*/
         /*background: yellow; WRITTEN BY SARAH*/
     }
-    /*label {
-        display:block;
-    }
-    #toggle:checked + ul {
-        display:block;
-    } WRITTEN BY SARAH*/
     #headernav li {
 		display: block;
 		margin: 1%;
 		padding: 1%;
 		text-align: center;
 	}
+	#headernav li:first-of-type {
+        padding-top: 57px;
+    }
     .menu3 {
 	    left: 50%;
 	    padding: 0;
@@ -249,7 +250,10 @@ label{
 	    /*width: 3em; WRITTEN BY SARAH*/
         /*left, right, bottom - WRITTEN BY SARAH*/
     }
-    #headernav li:first-of-type {
-        padding-top: 57px;
+    /*label {
+        display:block;
     }
+    #toggle:checked + ul {
+        display:block;
+    } WRITTEN BY SARAH*/
 }
