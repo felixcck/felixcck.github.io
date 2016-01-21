@@ -186,6 +186,9 @@ label{
 		font-size: 1.35em;
 		text-align: center;
 	}
+	footer img {
+		margin: 2% 1.5%;
+	}
 	.headerbreak {
 		display: block;
 		margin: 0 auto;
