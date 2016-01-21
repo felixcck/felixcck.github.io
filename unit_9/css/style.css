@@ -214,7 +214,7 @@ label{
 @media screen and (max-width: 640px) {
 	h1 {
 		font-size: 2.5em;
-		letter-spacing: .2em;
+		letter-spacing: .3em;
 		line-height: 1.1em;
 	}
 	#headernav {
