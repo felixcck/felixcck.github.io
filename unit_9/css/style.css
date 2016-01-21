@@ -247,7 +247,7 @@ label{
     }
     .imgblog {
 		float: none;
-		margin: 2% auto;
+		margin: 2% auto 8%;
 		width: 100%;
 	}
     /*label {
