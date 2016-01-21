@@ -24,6 +24,7 @@ h1 {
 	text-transform: uppercase;
 }
 h2 {
+	font-size: 1.5em;
 	font-weight: 400;
 	text-transform: uppercase;
 }
@@ -44,8 +45,8 @@ address {
 	padding: .9% 0 1.05%; /*padding IN EM: .75em 0 1em;*/
 }
 footer img {
-	padding: 1.5% .75%; /*padding IN EM: 1.25em;*/
 	margin: 0 .75%;
+	padding: 1.5% .75%; /*padding IN EM: 1.25em;*/
 	width: 36px;
 }
 section {
@@ -106,23 +107,18 @@ label{
 	display: inline;
 }
 #copy {
-    line-height: 1.25em;
-    text-align: justify;
-    max-width: 1000px;
+    line-height: 1.35em;
     margin: 2.5% auto;
-    /*float: right;*/
+    max-width: 1000px;
     /*padding: 1.2% 5% 0 2%;*/ /*padding IN PX: 20px;*/
-    /*width: 62%;*/
-}
-#copy h2 {
-	font-size: 1.5em;
+    text-align: justify;
 }
 #copy p {
 	padding-top: 4%;
 }
 .imgtop {
 	float: left;
-	margin: 0 5% 0 0;
+	margin: 0 5% .5% 0;
 	width: 50%;
 }
 .imgbottom img {
@@ -145,7 +141,7 @@ label{
 	clear: both;
 	height: 0;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
 	h1 {
 		font-size: 2.5em;
 		letter-spacing: .5em;
@@ -165,35 +161,41 @@ label{
 	#headernav {
 		padding: 18px 0 10px;
 	}
+	#copy {
+		width: 80%;
+	}
 	.imgtop {
 		margin: 0 5% 3% 0;
 		width: 400px;
 	}
-	#imgbottom1, #imgbottom2 {
-		margin: 3.5% auto;
-	}	
 	.imgbottom img {
-		display: block;
-		margin: 3.5% auto;
-		width: 75%;
+		margin: 2.5% 0 0;
+		width: 32%;
 	}
-	#copy {
-		width: 80%;
+	#imgbottom1, #imgbottom2 {
+		margin-right: 1.2%;
 	}
 	.imgblog {
 		float: left;
 		margin: 0 5% .5% 0;
-		width: 264px;
+		min-width: 55%;
 	}
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
+	h2 {
+		font-size: 1.35em;
+		text-align: center;
+	}
+	.headerbreak {
+		display: block;
+		margin: 0 auto;
+	}
+	.contactbreak {
+		display: block;
+	}
 	#copy {
 		line-height: 1.5em;
 		margin: 3.5% auto;
-	}
-	#copy h2 {
-		font-size: 1.05em;
-		text-align: center;
 	}
 	#copy p {
 		font-size: .9em;
@@ -208,29 +210,14 @@ label{
 		margin: 3.5% auto;
 		width: 100%;
 	}
-	.imgblog {
-		float: none;
-		margin: 2% auto;
-		width: 100%;
-	}
 }
-@media screen and (max-width: 700px) {
-	.headerbreak {
-		display: block;
-		margin: 0 auto;
-	}
-	.contactbreak {
-		display: block;
-	}
-}
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
 	#headernav {
 		padding: 10px 0;
 	}
 	#headernav ul {
         position: relative;
         /*display: none; WRITTEN BY SARAH*/
-        /*background: yellow; WRITTEN BY SARAH*/
     }
     #headernav li {
 		display: block;
@@ -250,6 +237,11 @@ label{
 	    /*width: 3em; WRITTEN BY SARAH*/
         /*left, right, bottom - WRITTEN BY SARAH*/
     }
+    .imgblog {
+		float: none;
+		margin: 2% auto;
+		width: 100%;
+	}
     /*label {
         display:block;
     }
