@@ -19,7 +19,7 @@ h1 {
 	font-size: 3em;
 	font-weight: 300;
 	letter-spacing: .4em;
-	padding-left: .75%;
+	/*padding-left: .75%;*/
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -93,9 +93,9 @@ label{
 	background-repeat: no-repeat;
 	background-size: cover;
 	/*background-position: center;*/
-	margin: 0 auto;
+	/*margin: 0 auto;*/
 	padding: 16% 0; /*padding IN EM: 14.25em;*/
-	text-align: center;
+	/*text-align: center;*/
 }
 #blogmain {
 	background-image: url(../images/latte.jpg);
@@ -146,14 +146,14 @@ label{
 		font-size: 2.5em;
 		letter-spacing: .5em;
 		line-height: 1.1em;
-		padding-left: .4em;
+		/*padding-left: .4em;*/
 	}
 	footer {
 		line-height: 1.5em;
 		padding: 2%;
 	}
 	footer img {
-		margin: 0 1%;
+		margin: .75% 1%;
 	}
 	hr {
 		width: 80%;
@@ -198,7 +198,7 @@ label{
 		margin: 3.5% auto;
 	}
 	#copy p {
-		font-size: .9em;
+		font-size: .95em;
 	}
 	.imgtop {
 		float: none;
