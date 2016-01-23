@@ -122,17 +122,17 @@ label{
 .contactbreak {
 	display: inline;
 }
-#copy {
+#copy,#blog1,#blog2,#blog3,#blog4 {
     line-height: 1.35em;
     margin: 2.5% auto;
     max-width: 1000px;
     /*padding: 1.2% 5% 0 2%;*/ /*padding IN PX: 20px;*/
     text-align: justify;
 }
-#copy p {
+#copy p,#blog1 p,#blog2 p,#blog3 p,#blog4 p {
 	padding-top: 4%;
 }
-#copy img {
+#copy img,#blog1 img,#blog2 img,#blog3 img,#blog4 img {
 	box-shadow: -1px 1px .75px rgba(0,0,0,.25);
 }
 .imgtop {
@@ -204,7 +204,7 @@ label{
 	#headernav {
 		padding: 18px 0 10px;
 	}
-	#copy {
+	#copy,#blog1,#blog2,#blog3,#blog4 {
 		width: 80%;
 	}
 	.imgtop {
@@ -251,11 +251,11 @@ label{
 	.contactbreak {
 		display: block;
 	}
-	#copy {
+	#copy,#blog1,#blog2,#blog3,#blog4 {
 		line-height: 1.5em;
 		margin: 3.5% auto;
 	}
-	#copy p {
+	#copy p,#blog1 p,#blog2 p,#blog3 p,#blog4 p {
 		font-size: .95em;
 	}
 	.imgtop {
