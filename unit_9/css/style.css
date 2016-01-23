@@ -156,16 +156,19 @@ label{
 	width: 33%;
 }
 #imgblog1 {
+	border-radius: 8px;
 	float: left;
 	margin: 0 5% 0 0;
 	width: 33%;
 }
 #imgblog2 {
+	border-radius: 8px;
 	float: right;
 	margin: 4% 0 0 5%;
 	width: 33%;
 }
 #imgblog3 {
+	border-radius: 8px;
 	float: left;
 	margin: 4% 5% 0 0;
 	width: 33%;
